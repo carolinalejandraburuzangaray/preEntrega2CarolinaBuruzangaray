@@ -1,6 +1,21 @@
 let bebida
 let comida
-let postre
+
+
+const cbuBar = {
+
+    alias: "Bar.125", 
+    cbu:"00012569878963",
+    banco: "Banco Santander"
+
+
+}
+
+
+function aliasBar(){
+alert("ALIAS A DEPOSITAR: " + "\n" + cbuBar.alias + "\n" + "CBU: " + "\n" + cbuBar.cbu )
+}
+
 
 function bebidas(bebida){
 
@@ -19,6 +34,7 @@ for (let i = 0; i < productos.length; i++) {
     {
         console.log(productos[i]); 
         alert("Bebida elegida " + productos[i]);
+        
         break
     } 
             
@@ -46,3 +62,6 @@ for (let i = 0; i < comestibles.length; i++) {
     } 
 
      }
+
+
+     aliasBar();
