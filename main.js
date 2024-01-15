@@ -1,5 +1,6 @@
 let bebida
 let comida
+let postre
 
 function bebidas(bebida){
 
@@ -45,5 +46,3 @@ for (let i = 0; i < comestibles.length; i++) {
     } 
 
      }
-
-    
